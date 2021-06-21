@@ -1,0 +1,22 @@
+.button{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .button{
+        display: inline-block;
+        display: flex;
+        justify-content: flex-end;
+        &__link{
+            border: 1px solid #000;
+            padding: 10px;
+            color: #fff;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .red{
+            background-color: red;
+            margin-left: 10px;
+        }
+    }
+}

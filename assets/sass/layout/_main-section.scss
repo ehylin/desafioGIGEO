@@ -1,0 +1,27 @@
+.author{
+    margin-top: 20px;
+    &__cont-Img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__img{
+        width: 100px;
+        border-radius: 50%;
+    }
+}
+.blog{
+    margin-top: 30px;
+}
+@media screen and (min-width: 1024px){
+    .banner{
+        &__img{
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .author{
+        border-bottom: 1px solid #dcdcdc;
+        padding-bottom: 10px;
+    }
+
+}
